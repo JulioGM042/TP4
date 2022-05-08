@@ -1,0 +1,205 @@
+header{
+  margin: 1%;
+}
+
+body {
+  background-image: url("Indexfondo2.JPG");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+h1 {
+  color: #f7aa00;
+  font-family: "Helvetica",monospace;
+  font-size:650%;
+  text-align: center;
+}
+h2 {
+  Color:#F5A888;
+  font-family:"verdana",monospace;
+  font-size: 300%;
+  text-align: right;
+  text-decoration-line: underline;
+}
+.bajada{
+  color:#FF0F0F;
+  font-family: "arial",serif;
+  font-weight: bolder;
+  margin: auto;
+}
+.ingredientes{
+  color:#210631;
+  font-family: "arial",monospace;
+  font-weight: bolder;
+  margin-right:;
+  text-align: right;
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+@keyframes titulos {
+0%{transform: translateX(15px);}
+25%{transform: translateX(25px);}
+50%{transform: translateX(35px);}
+75%{transform: translateX(45px);}
+100%{transform: translateX(55px);}
+}
+
+main ul{
+  color:#FFB86F;
+  font-family: "verdana",monospace;
+  font-weight: lighter;
+  margin-left: 1000px;
+  text-align: right;
+}
+ol{
+  color:#FFB86F;
+  font-family: "verdana",monospace;
+  font-weight: lighter;
+  margin-right: :1000px ;
+  text-align: left;
+}
+
+.preparacion{
+  color:#210631;
+  font-family: "arial",monospace;
+  font-weight: bolder;
+  margin: auto;
+  text-align: left;
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+.primerajpg{
+  align-items: flex-start;
+  height: 275px;
+  width: 450px;
+}
+.segundajpg{
+  float:right;
+  width: 750px;
+  height: 400px;
+}
+p{
+  color:#FF0F0F;
+  background-color: #3C91E6;
+  font-family: "arial",serif;
+  font-weight: bolder;
+  margin: auto;
+  font-size: 120%;
+}
+
+.interaccion{
+  float: left;
+  vertical-align: middle;
+  margin-left: 300px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+.mapa{
+  float: right;
+  margin: 5px;
+}
+.video{
+  float: right;
+  margin: 5px;
+}
+.lugares{
+  font-size: 125%;
+  font-weight: 250;
+}
+
+nav{
+  margin-left: 275px;
+  opacity: 0;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Arial Unicode MS";
+  font-weight: bold;
+  }
+
+nav a{
+  margin: 50px;
+  color:#FFB86F;
+}
+nav a:visited{
+  color:red;
+}
+
+footer{
+  text-align: center;
+  clear: both;
+}
+footer li{
+list-style: none;
+font-size: 200%;
+display: inline-block;
+margin-right: 10px;
+}
+
+footer ul li a{
+  color:#FFB86F;
+}
+
+footer ul li a:visited{
+  color:red;
+}
+footer ul li a:hover{
+  color:green;
+}
+
+.whatsapp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:25px;
+  right:25px;
+  background:green;
+  color:white;
+  text-align:center;
+  font-size:50px;
+}
+.contacto li{
+  display: block;
+  align-content: flex-start;
+  Color:#F5A888;
+  font-family:"verdana",monospace;
+  list-style: none;
+}
+.contacto input,textarea {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.xx{
+  margin-top: 15px;
+}
+
+.ingredientes:hover{
+  margin-right: 150px;
+  animation-name: titulos;
+  animation-duration: 3s;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+
+.preparacion:hover{
+margin-left: 150px;
+animation-name: titulos;
+animation-duration: 3s;
+animation-direction: normal;
+animation-timing-function: linear;
+}
+
+nav:hover{
+opacity: 100%;
+font-size: 17px;
+transition-property: all;
+transition-duration: 2s;
+}
+
+.bajada:hover{
+  color:white;
+}
